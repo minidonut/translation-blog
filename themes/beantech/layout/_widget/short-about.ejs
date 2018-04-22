@@ -3,12 +3,16 @@
     <h5><a href="<%= config.root %>about/">ABOUT ME</a></h5>
     <div class="short-about">
 
-        <% if(config['sidebar-avatar']) { %>
-            <img id = "avatar_pic" src="<%= config['root'] %><%= config['sidebar-avatar'] %>" />
-        <% } %>
 
         <% if(config['sidebar-about-description']) { %>
             <p><%= config['sidebar-about-description'] %></p>
+        <% }%>
+        
+        <% if(config['sidebar-about-contact']) { %>
+            <p><%= config['sidebar-about-contact'] %></p>
+        <% }%>
+        <% if(config['sidebar-about-check']) { %>
+            <p><%= config['sidebar-about-check'] %></p>
         <% }%>
 
         <!-- SNS Link -->
