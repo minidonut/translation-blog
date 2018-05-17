@@ -1,7 +1,7 @@
 ---
 title: 합성과 추상화
 catalog: true
-date: 2018-04-15 14:34:15
+date: 2018-04-26 14:34:15
 subtitle: Abstraction & Composition
 header-img: "bg.jpg"
 readingTime: 6
@@ -20,7 +20,7 @@ preview: 소프트웨어 개발자로서 성숙해질수록 기본적인 것들�
 *Smoke Art Cubes to Smoke — MattysFlicks — (CC BY 2.0)*
 
 >참고 : 이 글은 JavaScript ES6+의 함수형 프로그래밍 및 소프트웨어 합성 방법론을 기초부터 다루는 "소프트웨어 합성"시리즈의 일부 입니다.  앞으로 계속하여 연재될 것입니다.
-> [<이전](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)  |  [<< Part 1에서 다시 시작](https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea)  |  [다음>](https://medium.com/javascript-scene/reduce-composing-software-fe22f0c39a1d)
+> [<이전](https://midojeong.github.io/2018/04/24/nested-ternaries-are-great/)  |  [<< Part 1에서 다시 시작](https://midojeong.github.io/2018/03/16/composing-software-intro/) 
 
 소프트웨어 개발자로서 성숙해질수록 기본적인 것들에 더 큰 가치를 부여하게 됩니다. 초보자였을 때 사소해 보였던 깨달음들이 그동안의 경험들과 함께 심오한 의미를 갖게됩니다.
 

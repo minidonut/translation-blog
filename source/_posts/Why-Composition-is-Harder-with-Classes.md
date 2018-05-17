@@ -21,7 +21,7 @@ preview: 이전 글에서 우리는 팩토리 함수라는 주제를 살펴봤�
 *Smoke Art Cubes to Smoke — MattysFlicks — (CC BY 2.0)*
 
 >참고 : 이 글은 JavaScript ES6+의 함수형 프로그래밍 및 소프트웨어 합성 방법론을 기초부터 다루는 "소프트웨어 합성"시리즈의 일부 입니다.  앞으로 계속하여 연재될 것입니다.
-> [<이전](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)  |  [<< Part 1에서 다시 시작](https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea)  |  [다음>](https://medium.com/javascript-scene/reduce-composing-software-fe22f0c39a1d)
+> [<이전](https://midojeong.github.io/2018/04/08/javaScript-factory-function-with-es6/)  |  [<< Part 1에서 다시 시작](https://midojeong.github.io/2018/03/16/composing-software-intro/)  |  [다음>](https://midojeong.github.io/2018/04/14/composable-datatype-with-functions/)
 
 이전 글에서 우리는 팩토리 함수라는 주제를 살펴봤고 여기에 함수형 믹스인도 함께 사용해서 얼마나 쉽게 객체를 합성할 수 있는지 알게 됐습니다. 이제 클래스에 대해 좀 더 자세히 알아보겠습니다. `class`의 어떤 매커니즘이 합성과 연관되어 있는지 살펴 보겠습니다.
 
@@ -374,4 +374,4 @@ JavaScript의 클래스는 동적이며  `instanceof` 는 실행 컨텍스트에
 
 팩토리는 JavaScript의 클래스 또는 생성자 함수보다 간단합니다.  항상 가장 간단한 솔루션부터 시작하여 필요한 경우에만 보다 복잡한 솔루션으로 나아가야 합니다.
 
-[**다음: 함수형 자료구조 >**](#)
+[**다음: 함수형 자료구조 >**](https://midojeong.github.io/2018/04/14/composable-datatype-with-functions/)

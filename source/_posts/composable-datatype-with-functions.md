@@ -20,7 +20,7 @@ preview: JavaScript에서 무언가를 합성^compose^하는 가장 쉬운 방�
 *Smoke Art Cubes to Smoke — MattysFlicks — (CC BY 2.0)*
 
 >참고 : 이 글은 JavaScript ES6+의 함수형 프로그래밍 및 소프트웨어 합성 방법론을 기초부터 다루는 "소프트웨어 합성"시리즈의 일부 입니다.  앞으로 계속하여 연재될 것입니다.
-> [<이전](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)  |  [<< Part 1에서 다시 시작](https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea)  |  [다음>](https://medium.com/javascript-scene/reduce-composing-software-fe22f0c39a1d)
+> [<이전](https://midojeong.github.io/2018/04/12/Why-Composition-is-Harder-with-Classes/)  |  [<< Part 1에서 다시 시작](https://midojeong.github.io/2018/03/16/composing-software-intro/)  |  [다음>](https://midojeong.github.io/2018/04/18/javascript-monads-made-simple/)
 
 ## 함수형 자료구조
 
@@ -213,4 +213,4 @@ Moneysafe 튜토리얼은  [Shotgun 시리즈](https://ericelliottjs.com/premium
 
 회원이 아니십니까?  [지금 가입하세요](https://ericelliottjs.com/product/lifetime-access-pass/).
 
-[**다음: JavaScript 모나드 >**](https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8)
+[**다음: JavaScript 모나드 >**](https://midojeong.github.io/2018/04/18/javascript-monads-made-simple/)

@@ -18,7 +18,7 @@
         
     </title>
 
-    <link rel="canonical" href="midojeong.github.io/2018/04/17/the-hidden-treasures-of-object-composition/">
+    <link rel="canonical" href="midojeong.github.io/2018/04/23/the-hidden-treasures-of-object-composition/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -101,7 +101,7 @@
                         <h2 class="subheading">The Hidden Treasures of Object Composition</h2>
                         <span class="meta">
                             Posted by mido on
-                            2018-04-17
+                            2018-04-23
                         </span>
                     </div>
                 
@@ -225,7 +225,7 @@
 <p><em>Smoke Art Cubes to Smoke — MattysFlicks — (CC BY 2.0)</em></p>
 <blockquote>
 <p>참고 : 이 글은 JavaScript ES6+의 함수형 프로그래밍 및 소프트웨어 합성 방법론을 기초부터 다루는 &quot;소프트웨어 합성&quot;시리즈의 일부 입니다.  앞으로 계속하여 연재될 것입니다.<br>
-<a href="https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30" target="_blank" rel="noopener">&lt;이전</a>  |  <a href="https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea" target="_blank" rel="noopener">&lt;&lt; Part 1에서 다시 시작</a>  |  <a href="https://medium.com/javascript-scene/reduce-composing-software-fe22f0c39a1d" target="_blank" rel="noopener">다음&gt;</a></p>
+<a href="https://midojeong.github.io/2018/04/19/mocking-is-a-code-smell/">&lt;이전</a>  |  <a href="https://midojeong.github.io/2018/03/16/composing-software-intro/">&lt;&lt; Part 1에서 다시 시작</a>  |  <a href="https://midojeong.github.io/2018/04/24/nested-ternaries-are-great/">다음&gt;</a></p>
 </blockquote>
 <blockquote>
 <p>“객체 합성, 보다 복잡한 동작을 하기 위해 객체를 조립 또는 합성하는 것”~ 4 강  <a href="https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=as_li_ss_tl?ie=UTF8&amp;qid=1494993475&amp;sr=8-1&amp;keywords=design+patterns&amp;linkCode=ll1&amp;tag=eejs-20&amp;linkId=6c553f16325f3939e5abadd4ee04e8b4" target="_blank" rel="noopener">“디자인 패턴 : 재사용 가능한 객체 지향 소프트웨어의 요소”</a></p>
@@ -266,7 +266,7 @@
 </ul>
 <p>이러한 다른 형태의 구성은  <strong>서로 배타적이지 않습니다.</strong>  접합으로 위임을 구현할 수 있으며 JavaScript에서 클래스 상속은 위임으로 구현됩니다. 많은 소프트웨어 시스템은 객체를 합성할 때 하나 이상의 방법을 사용합니다. 예를 들어, jQuery의 플러그인은 프로토타입 프로퍼티인 <code>jQuery.fn</code>에 다른 메소드들을 접합하는 방식으로 확장합니다. 클라이언트 코드가 플러그인 메소드를 호출하면 프로토타입에 연결된 메소드에 위임됩니다.</p>
 <blockquote>
-<p>앞으로 다룰 코드 예제들은 아래 코드를  계속 사용할 것 입니다.</p>
+<p>앞으로 나올 예제들에서 아래 코드를 계속 사용할 것 입니다.</p>
 </blockquote>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> objs = [  </span><br><span class="line">  &#123; <span class="attr">a</span>: <span class="string">'a'</span>, <span class="attr">b</span>: <span class="string">'ab'</span> &#125;,  </span><br><span class="line">  &#123; <span class="attr">b</span>: <span class="string">'b'</span> &#125;,  </span><br><span class="line">  &#123; <span class="attr">c</span>: <span class="string">'c'</span>, <span class="attr">b</span>: <span class="string">'cb'</span> &#125;  </span><br><span class="line">];</span><br></pre></td></tr></table></figure>
 <h2 id="집합-aggregation">집합 Aggregation</h2>
@@ -355,7 +355,7 @@
 <p>단지 세 가지 종류의 객체 합성만 있는 것이 아닙니다.  또한 객체가 다른 객체에게 매개 변수로 전달되는(의존성 삽입) 등의 관계를 통해 객체간에 느슨하고 동적인 관계를 형성 할 수도 있습니다.</p>
 <p>모든 소프트웨어 개발은 합성입니다.  쉽고 유연한 방법도 있고 부서지기 쉬운 관절염도 있습니다.  객체 합성의 일부 형태는 느슨하게 연결된 관계를 형성하고, 다른 형태는 매우 단단한 결합을 형성합니다.</p>
 <p>프로그램 요구사항이 변경되었을 때 코드 구현을 조금만 변경하기 위해선 다양한 합성 형태를 찾아보십시오. 의도를 명확하고 간결하게 표현하고 기억하십시오 : 클래스 상속이 필요하다고 생각이 들 때 사실 더 좋은 방법이 많이 있을 것입니다.</p>
-<p><a href="#"><strong>다음: 삼항연산자의 멋짐을 모르는 당신이 불쌍해 &gt;</strong></a></p>
+<p><a href="https://midojeong.github.io/2018/04/24/nested-ternaries-are-great/"><strong>다음: 삼항연산자의 멋짐을 모르는 당신이 불쌍해 &gt;</strong></a></p>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
@@ -372,9 +372,13 @@
                 <!-- Pager -->
                 <ul class="pager">
                     
+                        <li class="previous">
+                            <a href="/2018/04/19/mocking-is-a-code-smell/" data-toggle="tooltip" data-placement="top" title="Mocking은 코드 냄새(Code Smell)입니다">&larr; Previous Post</a>
+                        </li>
+                    
                     
                         <li class="next">
-                            <a href="/2018/04/15/abstraction-and-composition/" data-toggle="tooltip" data-placement="top" title="합성과 추상화">Next Post &rarr;</a>
+                            <a href="/2018/04/24/nested-ternaries-are-great/" data-toggle="tooltip" data-placement="top" title="삼항연산자의 멋짐을 모르는 당신이 불쌍해">Next Post &rarr;</a>
                         </li>
                     
                 </ul>
@@ -445,8 +449,8 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "midojeong";
-    var disqus_identifier = "midojeong.github.io/2018/04/17/the-hidden-treasures-of-object-composition/";
-    var disqus_url = "midojeong.github.io/2018/04/17/the-hidden-treasures-of-object-composition/";
+    var disqus_identifier = "midojeong.github.io/2018/04/23/the-hidden-treasures-of-object-composition/";
+    var disqus_url = "midojeong.github.io/2018/04/23/the-hidden-treasures-of-object-composition/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

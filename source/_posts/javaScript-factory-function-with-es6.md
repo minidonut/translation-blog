@@ -20,7 +20,7 @@ preview: 팩토리 함수는 (새로운)객체를 리턴하는 함수입니다. 
 *Smoke Art Cubes to Smoke — MattysFlicks — (CC BY 2.0)*
 
 >참고 : 이 글은 JavaScript ES6+의 함수형 프로그래밍 및 소프트웨어 합성 방법론을 기초부터 다루는 "소프트웨어 합성"시리즈의 일부 입니다.  앞으로 계속하여 연재될 것입니다.
-> [<이전](https://medium.com/javascript-scene/why-learn-functional-programming-in-javascript-composing-software-ea13afc7a257)  |  [<< Part 1에서 다시 시작](https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea)  |  [다음>](https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99)
+> [<이전](https://midojeong.github.io/2018/04/07/functional-mixins/)  |  [<< Part 1에서 다시 시작](https://midojeong.github.io/2018/03/16/composing-software-intro/)  |  [다음>](https://midojeong.github.io/2018/04/12/Why-Composition-is-Harder-with-Classes/)
 
 ## Factory Function
 
@@ -358,4 +358,4 @@ JavaScript에서 클래스는 팩토리보다 더 장황하고 제한적이며, 
 
 `Pure function -> factory -> functional mixin -> class`
 
-[**다음: 클래스로 합성하기가 까다로운 이유 >**](https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa)
+[**다음: 클래스로 합성하기가 까다로운 이유 >**](https://midojeong.github.io/2018/04/12/Why-Composition-is-Harder-with-Classes/)

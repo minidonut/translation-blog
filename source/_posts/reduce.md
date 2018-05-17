@@ -21,7 +21,7 @@ preview: 함수형 프로그래밍에서 자주 보이는 Reduce(일명 fold, ac
 *Smoke Art Cubes to Smoke — MattysFlicks — (CC BY 2.0)*
 
 >참고 : 이 글은 JavaScript ES6+의 함수형 프로그래밍 및 소프트웨어 합성 방법론을 기초부터 다루는 "소프트웨어 합성"시리즈의 일부 입니다.  앞으로 계속하여 연재될 것입니다.
-> [<이전](https://midojeong.github.io/2018/03/29/higher-order-functions/)  |  [<< Part 1에서 다시 시작](https://midojeong.github.io/2018/03/16/composing-software-intro/)  |  [다음>](#)
+> [<이전](https://midojeong.github.io/2018/03/29/higher-order-functions/)  |  [<< Part 1에서 다시 시작](https://midojeong.github.io/2018/03/16/composing-software-intro/)  |  [다음>](https://midojeong.github.io/2018/04/07/functors-and-categories/)
 
 
 함수형 프로그래밍에서 자주 보이는  **Reduce**  (일명 : fold, accumulate)는 배열을 순회하며 각 항목을 누적해서 리턴하는 함수입니다. 이 때 누적된 값을 변수로 저장해놓고 배열의 항목과 누적 값을 어떤 함수에 반복해서 전달합니다. 그 함수는 새로운 누적 값을 리턴하는 임의의 함수입니다. reduce를 사용하여 유용한 기능들을 구현할 수 있는데, 이는 보통 어떤 아이템 콜렉션을 가지고 중요한 계산을 수행하는 가장 우아한 방법입니다.
@@ -175,4 +175,4 @@ actions.reduce(summingReducer, 0); // 3
 
 당신은 reduce가 매우 유용하고 다재다능한 추상화라는 것을 알아야합니다. 맵이나 필터보다 이해하기가 약간 까다롭긴 해도 함수형 프로그래밍의 필수 도구입니다. 다른 많은 훌륭한 도구를 만드는 데 사용할 수 있습니다.
 
-[**다음: Functor와 카테고리 >**](#)
+[**다음: Functor와 카테고리 >**](https://midojeong.github.io/2018/04/07/functors-and-categories/)

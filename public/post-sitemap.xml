@@ -8,39 +8,55 @@
 
     <url>
         <loc>midojeong.github.io/2018/03/16/composing-software-intro/</loc>
-        <lastmod>2018-04-19T13:19:53.355Z</lastmod>
+        <lastmod>2018-05-05T14:47:03.261Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>midojeong.github.io/2018/04/17/the-hidden-treasures-of-object-composition/</loc>
-        <lastmod>2018-04-17T15:11:48.980Z</lastmod>
+        <loc>midojeong.github.io/2018/04/28/composing-software-translation-epilogue/</loc>
+        <lastmod>2018-04-28T14:33:26.680Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>midojeong.github.io/2018/04/15/abstraction-and-composition/</loc>
-        <lastmod>2018-04-15T14:36:47.279Z</lastmod>
+        <loc>midojeong.github.io/2018/04/26/abstraction-and-composition/</loc>
+        <lastmod>2018-04-28T13:48:50.927Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>midojeong.github.io/2018/04/14/nested-ternaries-are-great/</loc>
-        <lastmod>2018-04-15T03:51:30.890Z</lastmod>
+        <loc>midojeong.github.io/2018/04/23/the-hidden-treasures-of-object-composition/</loc>
+        <lastmod>2018-04-28T13:48:50.915Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>midojeong.github.io/2018/04/07/functors-and-categories/</loc>
-        <lastmod>2018-04-15T00:30:41.402Z</lastmod>
+        <loc>midojeong.github.io/2018/04/24/nested-ternaries-are-great/</loc>
+        <lastmod>2018-04-28T13:41:14.296Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>midojeong.github.io/2018/04/19/mocking-is-a-code-smell/</loc>
+        <lastmod>2018-04-28T13:40:06.787Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>midojeong.github.io/2018/04/18/javascript-monads-made-simple/</loc>
+        <lastmod>2018-04-28T13:39:06.075Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -48,7 +64,7 @@
 
     <url>
         <loc>midojeong.github.io/2018/04/14/composable-datatype-with-functions/</loc>
-        <lastmod>2018-04-15T00:26:00.236Z</lastmod>
+        <lastmod>2018-04-28T13:38:21.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -56,7 +72,7 @@
 
     <url>
         <loc>midojeong.github.io/2018/04/12/Why-Composition-is-Harder-with-Classes/</loc>
-        <lastmod>2018-04-12T13:54:23.946Z</lastmod>
+        <lastmod>2018-04-28T13:37:14.911Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -64,7 +80,7 @@
 
     <url>
         <loc>midojeong.github.io/2018/04/08/javaScript-factory-function-with-es6/</loc>
-        <lastmod>2018-04-08T09:39:48.418Z</lastmod>
+        <lastmod>2018-04-28T13:36:38.694Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -72,7 +88,31 @@
 
     <url>
         <loc>midojeong.github.io/2018/04/07/functional-mixins/</loc>
-        <lastmod>2018-04-08T02:24:16.766Z</lastmod>
+        <lastmod>2018-04-28T13:35:59.870Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>midojeong.github.io/2018/04/07/functors-and-categories/</loc>
+        <lastmod>2018-04-28T13:35:13.634Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>midojeong.github.io/2018/03/31/reduce/</loc>
+        <lastmod>2018-04-28T13:33:42.438Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>midojeong.github.io/2018/03/24/why-learn-functional-programming-in-javascript/</loc>
+        <lastmod>2018-04-23T14:46:12.036Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -95,24 +135,8 @@
     </url>
 
     <url>
-        <loc>midojeong.github.io/2018/03/31/reduce/</loc>
-        <lastmod>2018-04-06T09:33:37.184Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>midojeong.github.io/2018/03/28/a-functional-programmers-introduction-to-javascript/</loc>
         <lastmod>2018-04-06T09:33:13.338Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>midojeong.github.io/2018/03/24/why-learn-functional-programming-in-javascript/</loc>
-        <lastmod>2018-04-06T09:32:58.437Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

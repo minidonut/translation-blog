@@ -1,7 +1,7 @@
 ---
 title: 객체 합성이라는 숨겨진 보물
 catalog: true
-date: 2018-04-17 15:05:12
+date: 2018-04-23 15:05:12
 subtitle: The Hidden Treasures of Object Composition
 header-img: "bg.jpg"
 readingTime: 10
@@ -21,7 +21,7 @@ preview: 소프트웨어를 개발하는 과정에서 가장 흔히 볼 수 있�
 *Smoke Art Cubes to Smoke — MattysFlicks — (CC BY 2.0)*
 
 >참고 : 이 글은 JavaScript ES6+의 함수형 프로그래밍 및 소프트웨어 합성 방법론을 기초부터 다루는 "소프트웨어 합성"시리즈의 일부 입니다.  앞으로 계속하여 연재될 것입니다.
-> [<이전](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)  |  [<< Part 1에서 다시 시작](https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea)  |  [다음>](https://medium.com/javascript-scene/reduce-composing-software-fe22f0c39a1d)
+> [<이전](https://midojeong.github.io/2018/04/19/mocking-is-a-code-smell/)  |  [<< Part 1에서 다시 시작](https://midojeong.github.io/2018/03/16/composing-software-intro/)  |  [다음>](https://midojeong.github.io/2018/04/24/nested-ternaries-are-great/)
 
 
 > "객체 합성, 보다 복잡한 동작을 하기 위해 객체를 조립 또는 합성하는 것"~ 4 강  ["디자인 패턴 : 재사용 가능한 객체 지향 소프트웨어의 요소"](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=as_li_ss_tl?ie=UTF8&qid=1494993475&sr=8-1&keywords=design+patterns&linkCode=ll1&tag=eejs-20&linkId=6c553f16325f3939e5abadd4ee04e8b4)
@@ -262,4 +262,4 @@ console.log(d.b, d.c); // ab c
 
 프로그램 요구사항이 변경되었을 때 코드 구현을 조금만 변경하기 위해선 다양한 합성 형태를 찾아보십시오. 의도를 명확하고 간결하게 표현하고 기억하십시오 : 클래스 상속이 필요하다고 생각이 들 때 사실 더 좋은 방법이 많이 있을 것입니다.
 
-[**다음: 삼항연산자의 멋짐을 모르는 당신이 불쌍해 >**](#)
+[**다음: 삼항연산자의 멋짐을 모르는 당신이 불쌍해 >**](https://midojeong.github.io/2018/04/24/nested-ternaries-are-great/)
